@@ -16,7 +16,9 @@ int main(){
     std::cout << "a + b = " << a+b << std::endl;
     std::cout << "a-b = " << a-b << std::endl;
     std::cout << "a + flag = " << a+my_flag << std::endl;
-    
+    unsigned int positive;
+    positive =b - a;
+    std::cout << "b-a (unsigned) = " << positive << std::endl;
     std::cout << std::endl << std::endl;
     return (0);
 }
